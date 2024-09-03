@@ -16,6 +16,8 @@ public class Event {
     private int duration;
     private String location;
     private String title;
+    private int type;
+
     @OneToMany
     private List<Guest> guests;
     @OneToMany

@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.List;
-import java.util.Locale;
 
 @Data
 @Entity
@@ -12,6 +11,7 @@ public class Chapter {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private long id;
+
     private String district;
     @ManyToOne
     private Member president;
