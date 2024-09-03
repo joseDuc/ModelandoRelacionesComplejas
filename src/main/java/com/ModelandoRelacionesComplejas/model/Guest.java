@@ -14,5 +14,5 @@ public class Guest {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     private String name;
-    private Byte status;
+    private byte status;
 }

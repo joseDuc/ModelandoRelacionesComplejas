@@ -9,6 +9,8 @@ import lombok.Data;
 @Entity
 public class Speaker {
     @Id
+    private long eventId;
     private String name;
     private int durationPresentation;
+
 }
